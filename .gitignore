@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dataset (large files)
+dataset/train/
+dataset/test/
+*.tsv
+
+# Model artifacts (large binary files)
+!*.md
+!*.txt
+!*.py
+!*.json
+scratch/models/*.pkl
+scratch/models/*.pkl.gz
+scratch/features/
+
+# Output files (regenerated)
+output/candidate_pairs.tsv
+output/matching_results.tsv
+
+# Submission
+submission.zip
+
+# Logs
+*.log
